@@ -4,79 +4,126 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap</title>
-    <link rel="stylesheet" href="C:/Users/Positivo/Desktop/VS CODE WORKSPACE/bootstrap/css/style.css">
+    <link rel="stylesheet" href="C:\Users\Positivo\Desktop\VS CODE WORKSPACE\Bootstrap/css/style.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+ <body>
+   
+   <div class ="container-fluid">
+        <nav class="navbar navbar-expand-lg p-3 mb-2 bg-transparent text-dark">
+          <div class="container-fluid shadow p-3 mb-5 bg-body rounded">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-item" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <img src="./imgs/menu.png" alt="" width="120" height="50"  class="d-inline-block align-text-top"> </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Início</a></li>
+                      <li><a class="dropdown-item" href="#ep">EP - A Era dos Drones</a></li>
+                      <li><a class="dropdown-item" href="#video">Vídeos</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./index.html">Contato</a></li>
+                    </ul>
+                  </li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-        
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-        <div class="carousel-item">
-             <img src="https://i.scdn.co/image/ab6761610000e5ebc981f4fa62a70b0a54113011" alt="logo">
+    
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Pesquisa">
+                  <button class="btn btn-outline-dark" type="submit">Pesquisar</button>
+                </form>    
+            </div>
+          </nav>
+          
+          <div style="background-color: #ffffffef">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                 <img src="imgs/pl.jpg" style="height: 580px;"  class="d-block w-40" alt="logo">
+                  </div>
+                </div>
+              <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                <img src="imgs/plkeefep.jpg" style="height: 580px;" class="d-block w-40" alt="logo">
               </div>
-          <div class="carousel-item">
-            <img src="https://i.scdn.co/image/ab67616d0000b273523ea96ebc110427d86b9535" alt="logo">
-          </div>
-          <div class="carousel-item active">
-            <img src="https://angartwork.akamaized.net/?id=133852578&size=640" alt="logo">
+            </div>
+              <div class="carousel-item active">
+                <div class="d-flex justify-content-center">
+                <img src="imgs/download.jpg" style="height: 580px;" class="d-block w-40" alt="logo">
+              </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+          <main>
+            <div class="container py-4">
+              <div class="p-2 mb-4 rounded-3" style="background-color: #e06716ef">
+                <div class="container-fluid" id="ep">
+                  <h1 class="display-6 fw-bold d-flex justify-content-center" style="font-family: sans-serif; color: white;">EP - A Era dos Drones</h1>
+                  <!-- <p class="col-md-8 fs-4" id="ep">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p> -->
+                  
+                  <iframe src="https://open.spotify.com/embed/album/2nTisOPcMNRzeg7HvNz2Uh" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+              </div>
+        
+            <!-- TEXTO E VÍDEO -->
+            <div class="container py-0">
+              <div class="p-3 mb-4 rounded-3">
+                <div class="container">
+                  <h2 id="video" class="d-flex justify-content-center p-3">Últimos Lançamentos</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <iframe width="505" height="350" src="https://www.youtube.com/embed/zK7Zy_J1Ejc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        <div class="col-md-6">
+          <iframe width="505" height="350" src="https://www.youtube.com/embed/OD16Uiy51KE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
       </div>
     </div>
- 
- 
+  </div>
+          </main>
+        </div>       
+        <footer>
+          <div class="container d-flex justify-content-center">
+            <div class="p-1 rounded-1"></div>
+                  <a class="logos" href="http://instagram.com/gumunizs" target="_blank">
+                      <img class="tm-social" src="./assets/instagram.png" width="50" alt="logo do insta">
+                  </a>
+                  <div class="p-1 rounded-1"></div>
+                  <a class="logos" href="https://www.facebook.com/gustavo.muniz.73" target="_blank">
+                      <img class="tm-social" src="./assets/face.png" width="50" alt="logo do face">
+                  </a>
+                  <div class="p-1 rounded-1"></div>
+                  <a class="logos" href="https://github.com/gumunizs" target="_blank">
+                      <img class="tm-social" src="./assets/github.png" width="50" alt="logo do github">
+                  </a>
+                  <div class="p-1 rounded-1"></div>
+                  <a class="logos" href="https://www.linkedin.com/in/gustavo-muniz-santos-089550165/" target="_blank">
+                      <img src="./assets/linkedin.png" width="50" alt="logo do linkedin">
+                  </a> 
+                  
+              </div>
+              <br>
+              <p class="d-flex justify-content-center">Direitos Reservados a Gustavo Muniz &copy;</p>
+          </footer>
+  
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+  
   </body>
 </html>
