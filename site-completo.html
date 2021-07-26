@@ -9,13 +9,47 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    
  <body>
+          
+  <div class="site-header sticky-top py-0 ">          
+    <div style="margin-block-end: auto;">
+    <div class="col-md-2">
+      <div class="d-flex flex-shrink-0 bg-transparent ">
+        <a href="/" class="d-block p-1 link-dark text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
+        </a>
+        <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
+          <a href="https://open.spotify.com/artist/1V41clCm1Y994KEjjXkrlz" class="nav-link py-3" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Orders">
+            <img src="./assets/spotify.png" height="30" alt="">
+                  </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/plkeef/" class="nav-link py-3" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Products">
+            <img src="./assets/instagram.png" height="30" alt="">        
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/PLKEEF/" class="nav-link py-3" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Customers">
+            <img src="./assets/face.png" height="30" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UC6P1lzIVRLlJrWr47p3wqlA" class="nav-link py-3" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Customers">
+            <img src="./assets/youtube.png" height="30" alt="">
+          </a>
+        </li>
+      </ul>
+        </div>
+    </div>
+    </div>
+    </div>
+    
    
-   <div class ="container-fluid">
-        <nav class="navbar navbar-expand-lg p-3 mb-2 bg-transparent text-dark">
-          <div class="container-fluid shadow p-3 mb-5 bg-body rounded">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  <div class ="container-fluid">
+    <div class="d-flex justify-content-center">    
+    <nav class="navbar navbar-expand-lg p-1 mb-2 bg-transparent text-dark">
+        
+                <ul class="navbar-nav me-auto mb-2 mb-lg-">
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-item" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <img src="./imgs/menu.png" alt="" width="120" height="50"  class="d-inline-block align-text-top"> </a>
+                    <a class="nav-link dropdown-item" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <img src="./imgs/menu.png" alt="" width="180" height="60"  class="d-inline-block align-text-top"> </a>
 
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <li><a class="dropdown-item" href="#">Início</a></li>
@@ -25,16 +59,14 @@
                       <li><a class="dropdown-item" href="./index.html">Contato</a></li>
                     </ul>
                   </li>
-                </ul>
-    
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Pesquisa">
-                  <button class="btn btn-outline-dark" type="submit">Pesquisar</button>
-                </form>    
+                </ul>   
             </div>
+            </div>
+          </div>
           </nav>
           
-          <div style="background-color: #ffffffef">
+
+        <div class="col-md-10">
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -44,17 +76,29 @@
             <div class="carousel-inner">
             <div class="carousel-item">
               <div class="d-flex justify-content-center">
-                 <img src="imgs/pl.jpg" style="height: 580px;"  class="d-block w-40" alt="logo">
+                 <img src="imgs/pl.jpg" style="height: 550px;" width="900px"  class="d-block w-40" alt="logo">
+                  </div>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5><p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p> </h5>
+                    <p>Some representative placeholder content for the second slide.</p>
                   </div>
                 </div>
               <div class="carousel-item">
                 <div class="d-flex justify-content-center">
-                <img src="imgs/plkeefep.jpg" style="height: 580px;" class="d-block w-40" alt="logo">
+                <img src="imgs/plkeefep.jpg" style="height: 550px;" width="900px" class="d-block w-40" alt="logo">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5><p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p> </h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
               </div>
             </div>
               <div class="carousel-item active">
                 <div class="d-flex justify-content-center">
-                <img src="imgs/download.jpg" style="height: 580px;" class="d-block w-40" alt="logo">
+                <img src="imgs/download.jpg" style="height: 550px;" width="900px" class="d-block w-40" alt="logo">
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5><p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p></h5>
+                <p>Some representative placeholder content for the second slide.</p>
               </div>
             </div>
             </div>
@@ -68,17 +112,34 @@
             </button>
           </div>
         </div>
+  </div>
+
+
+
+    <div class="p-4 p-md-5 mb-4 text-white rounded" style="background-color: #e06716ef">
+      <div class=" d-flex justify-content-center"></div>
+      <div class="col-md-6 px-0">
+        <h1 class="display-4 fst-italic">EP - A Era dos Drones</h1>
+        <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+        <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p> 
+      </div>
+      <iframe src="https://open.spotify.com/embed/album/2nTisOPcMNRzeg7HvNz2Uh" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    
+
+      
+      
+   <!-- </div>
           <main>
-            <div class="container py-4">
+            <div class="container py-3">
               <div class="p-2 mb-4 rounded-3" style="background-color: #e06716ef">
                 <div class="container-fluid" id="ep">
                   <h1 class="display-6 fw-bold d-flex justify-content-center" style="font-family: sans-serif; color: white;">EP - A Era dos Drones</h1>
-                  <!-- <p class="col-md-8 fs-4" id="ep">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p> -->
+                ISSO AQUI É COMENTADO TB > <p class="col-md-8 fs-4" id="ep">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
                   
                   <iframe src="https://open.spotify.com/embed/album/2nTisOPcMNRzeg7HvNz2Uh" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 </div>
-              </div>
-        
+              </div> ---> 
+            
             <!-- TEXTO E VÍDEO -->
             <div class="container py-0">
               <div class="p-3 mb-4 rounded-3">
@@ -86,44 +147,44 @@
                   <h2 id="video" class="d-flex justify-content-center p-3">Últimos Lançamentos</h2>
         <div class="row">
           <div class="col-md-6">
-            <iframe width="505" height="350" src="https://www.youtube.com/embed/zK7Zy_J1Ejc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="500" height="350" src="https://www.youtube.com/embed/zK7Zy_J1Ejc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         <div class="col-md-6">
-          <iframe width="505" height="350" src="https://www.youtube.com/embed/OD16Uiy51KE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="500" height="350" src="https://www.youtube.com/embed/OD16Uiy51KE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
   </div>
           </main>
-        </div>       
+        </div>
+       <!-- <div style="background-image: url(./imgs/purple.jpg);">   -->
+        <hr>    
         <footer>
           <div class="container d-flex justify-content-center">
+            <p class="d-flex justify-content-center">Direitos Reservados a Gustavo Muniz &copy;</p>
             <div class="p-1 rounded-1"></div>
                   <a class="logos" href="http://instagram.com/gumunizs" target="_blank">
-                      <img class="tm-social" src="./assets/instagram.png" width="50" alt="logo do insta">
+                      <img class="tm-social" src="./assets/instagram.png" width="28" alt="logo do insta">
                   </a>
                   <div class="p-1 rounded-1"></div>
                   <a class="logos" href="https://www.facebook.com/gustavo.muniz.73" target="_blank">
-                      <img class="tm-social" src="./assets/face.png" width="50" alt="logo do face">
+                      <img class="tm-social" src="./assets/face.png" width="28" alt="logo do face">
                   </a>
                   <div class="p-1 rounded-1"></div>
                   <a class="logos" href="https://github.com/gumunizs" target="_blank">
-                      <img class="tm-social" src="./assets/github.png" width="50" alt="logo do github">
+                      <img class="tm-social" src="./assets/github.png" width="28" alt="logo do github">
                   </a>
                   <div class="p-1 rounded-1"></div>
                   <a class="logos" href="https://www.linkedin.com/in/gustavo-muniz-santos-089550165/" target="_blank">
-                      <img src="./assets/linkedin.png" width="50" alt="logo do linkedin">
+                      <img src="./assets/linkedin.png" width="28" alt="logo do linkedin">
                   </a> 
                   
               </div>
-              <br>
-              <p class="d-flex justify-content-center">Direitos Reservados a Gustavo Muniz &copy;</p>
           </footer>
   
-
+        </div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  
   </body>
 </html>
